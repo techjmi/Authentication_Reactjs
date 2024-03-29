@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { Button, Form } from "react-bootstrap";
 import Image from "./Image";
-import { Link } from "react-router-dom";
 const intialValue = {
   name: "",
   email: "",
@@ -56,7 +54,7 @@ else{
    
    <div class="container mt-5">
   <section class="d-flex justify-content-between flex-lg-row flex-column-reverse align-items-center">
-    <div class="left col-lg-5">
+    <div class="left col-lg-5 ">
       <div class="text text-center mb-3">Sign Up</div>
       <form>
         <div class="mb-3" controlId="name">
